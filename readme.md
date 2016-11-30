@@ -1,5 +1,5 @@
 #¿Qué comando utilizaste en el paso 11? ¿Por qué?
-Utilicé el comando "reset --hard HEAD~1" ya que la el metodo 'hard' pierde todos los cambios realizados
+Utilicé el comando "reset --hard HEAD~1" ya que el metodo 'hard' pierde todos los cambios realizados
 en el working copy y la sintaxis "HEAD~1" significa que iremos a un commit anterior al que estabamos.
 
 #¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
@@ -20,7 +20,7 @@ Usé el comando git graph porque previamente tengo una config global para todos
 mis proyectos --> git config --global alias.grap "log --graph --decorate --pretty=oneline --abbrev-commit"
 
 #El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
-Si también, ya que no perdería ningun commit.
+Si también, ya que puede ir directo de una rama a otra.
 
 #¿Qué comando o comandos utilizaste en el paso 27?
  Usé el comando : git reset --hard HEAD~1
